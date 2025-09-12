@@ -1,11 +1,11 @@
 import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
-import { HeroSection } from "../components/HeroSection";
-import { AboutSection } from "../components/AboutSection";
-import { SkillsSection } from "../components/SkillsSection";
+import { HeroSection } from "../components/About";
+import { AboutSection } from "../components/Leaderboard";
+import { MayorChat } from "../components/MayorChat";
 import { ProjectsSection } from "../components/ProjectsSection";
-import { ContactSection } from "../components/ContactSection";
+import { Login } from "../components/Login";
 import { Footer } from "../components/Footer";
 
 export const Home = () => {
@@ -22,9 +22,10 @@ export const Home = () => {
       <main>
         <HeroSection />
         <AboutSection />
-        <SkillsSection />
+        <MayorChat />
         <ProjectsSection />
-        <ContactSection />
+        <Login/>
+      
       </main>
 
       {/* Footer */}
