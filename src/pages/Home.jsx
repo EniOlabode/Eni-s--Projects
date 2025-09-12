@@ -2,7 +2,7 @@ import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/About";
-import { AboutSection } from "../components/Leaderboard";
+import { Dashboard } from "../components/Dashboard";
 import { MayorChat } from "../components/MayorChat";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { Login } from "../components/Login";
@@ -21,7 +21,7 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        <AboutSection />
+        <Dashboard />
         <MayorChat />
         <ProjectsSection />
         <Login/>

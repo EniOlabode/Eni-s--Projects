@@ -1,6 +1,6 @@
 import { Briefcase, Code, User } from "lucide-react";
 
-export const AboutSection = () => {
+export const Dashboard = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
       {" "}

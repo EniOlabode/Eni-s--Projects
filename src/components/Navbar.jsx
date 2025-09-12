@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const navItems = [
   { name: "About", href: "#hero" },
-  { name: "Leaderboard", href: "#about" },
+  { name: "Dashboard", href: "#about" },
   { name: "Mayor Chat", href: "#skills" },
   { name: "Points", href: "#projects" },
   { name: "Login", href: "/login", type: "route" },
