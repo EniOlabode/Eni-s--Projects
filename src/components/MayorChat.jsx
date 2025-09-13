@@ -55,7 +55,8 @@ export const MayorChat = () => {
     };
 
     try {
-      const res = await fetch("/api/coach", {
+      const apiUrl = import.meta.env.DEV ? "http://localhost:3001/api/coach" : "/api/coach";
+      const res = await fetch(apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
