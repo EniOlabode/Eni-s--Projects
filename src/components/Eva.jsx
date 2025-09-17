@@ -6,7 +6,7 @@ export const MayorChat = () => {
     {
       role: "assistant",
       content:
-        "Welcome to Mayor Chat 👋 Tell me about your business (ZIP, stage, industry) and I’ll coach you through federal, state, city, and private grants.",
+        "What up doe! I'm Eva, chat to me. 👋 Tell me about your business (ZIP, stage, industry) and I'll coach you through federal, state, city, and private grants.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -73,7 +73,7 @@ export const MayorChat = () => {
       console.error(err);
       setMessages((m) => [
         ...m,
-        { role: "assistant", content: "⚠️ I couldn’t reach the coach. Please try again." },
+        { role: "assistant", content: "⚠️ I couldn't reach the coach. Please try again." },
       ]);
     } finally {
       setIsLoading(false);
@@ -84,7 +84,7 @@ export const MayorChat = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
-          Mayor <span className="text-primary">Chat</span>
+           <span className="text-primary">What up doe! I'm Eva, chat to me.</span>
         </h2>
         <p className="text-center text-muted-foreground mb-8">
           Get guided help applying for federal, local, and private grants.

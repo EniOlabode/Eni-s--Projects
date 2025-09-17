@@ -3,8 +3,9 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/About";
 import { Dashboard } from "../components/Dashboard";
-import { MayorChat } from "../components/MayorChat";
-import { ProjectsSection } from "../components/ProjectsSection";
+import { MayorChat } from "../components/Eva";
+import { EducationHub } from "../components/EducationHub";
+import { Pricing } from "../components/Pricing";
 import { Login } from "../components/Login";
 import { Footer } from "../components/Footer";
 
@@ -21,9 +22,10 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        <Dashboard />
         <MayorChat />
-        <ProjectsSection />
+        <EducationHub />
+        <Dashboard />
+        <Pricing />
         <Login/>
       
       </main>

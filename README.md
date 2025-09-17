@@ -1,133 +1,178 @@
-# Build a Modern Portfolio Website with React & TailwindCSS
+# Detroit Capital Connect 🏙️
 
-<div align="center">
-  <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="./banner.png" alt="Portfolio Website Banner">
-  </a>
-  <br />
-  <div>
-    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-    <img src="https://img.shields.io/badge/-Lucide Icons-FD4D4D?style=for-the-badge&logo=lucide" alt="Lucide Icons" />
-    <img src="https://img.shields.io/badge/-Radix UI-9D4EDD?style=for-the-badge&logo=data:image/svg+xml;base64..." alt="Radix UI" />
-  </div>
-  <h3 align="center">Create a Stunning Developer Portfolio with Animations, Dark Mode, and Projects Showcase</h3>
-  <div align="center">
-    Follow the full video tutorial on 
-    <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank"><b>YouTube</b></a>
-  </div>
-  <br />
-</div>
+**An AI-driven platform connecting Detroit small businesses to funding opportunities and community impact rewards.**
 
-## 📋 Table of Contents
+![Detroit Capital Connect](banner.png)
 
-1. [Introduction](#-introduction)
-2. [Tech Stack](#-tech-stack)
-3. [Features](#-features)
-4. [Quick Start](#-quick-start)
-5. [Screenshots](#-screenshots)
-6. [Deployment](#-deployment)
+## 🌟 Overview
 
----
+Detroit Capital Connect is a comprehensive web platform developed in partnership with the City of Detroit to help small business owners access grants, loans, and funding opportunities while building stronger community connections through gamified impact tracking.
 
-## 🚀 Introduction
+## ✨ Key Features
 
-In this tutorial, you'll learn how to build a modern portfolio website using **React**, **TailwindCSS**, **Vite**, and **Lucide Icons**. From dark mode support to responsive animations and deployable project showcases, this video walks you through every step—perfect for developers looking to level up their frontend skills or apply for jobs.
+### 🤖 Eva - AI Grant Coach
+- **Intelligent Chatbot**: Personalized grant coaching powered by AI
+- **Real-time Guidance**: Eligibility checklists, deadlines, and document requirements
+- **Comprehensive Coverage**: Federal, state, city, and private funding opportunities
+- **Detroit-Specific**: Tailored advice for Detroit's unique business ecosystem
+- **Draft Assistance**: Helps write grant application responses
 
-🎥 Watch the full tutorial: [YouTube](https://youtu.be/YOUR_VIDEO_ID)
+### 🏆 Gamified Impact Dashboard
+- **Points System**: Earn points for community impact actions
+- **Tier Progression**: Advance through Bronze, Silver, Gold, and Platinum levels
+- **Monthly Leaderboards**: Compete with other Detroit businesses
+- **Achievement Badges**: Unlock badges like "Second Chance Employer" and "Local Champion"
+- **Rewards Store**: Redeem points for government recognition, tax breaks, and mayor event invitations
+- **Action Tracking**: Log hiring, local sourcing, and mentoring activities
 
----
+### 📚 Education Hub
+- **Grant Writing Tutorials**: Step-by-step guides for successful applications
+- **Funding Database**: Comprehensive list of available opportunities
+- **Resource Library**: Tools and templates for business growth
+- **Best Practices**: Expert advice tailored for Detroit entrepreneurs
 
-## ⚙️ Tech Stack
+### 💰 Flexible Pricing
+- **Free Trial**: 1-2 months with AI chatbot and grant matching
+- **Basic Plan**: $25/month with personalized dashboard
+- **Premium Plan**: $50/month with credit tools and priority support
 
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
+### 🔐 Secure Authentication
+- **Business Profiles**: Capture company details for personalized experiences
+- **Secure Login**: Industry-standard security protocols
+- **Data Privacy**: GDPR and SOC 2 compliant data handling
 
----
+## 🚀 Live Demo
 
-## ⚡️ Features
+**Production URL**: [https://money-moguls-8uwceod7m-enioluwa-olabodes-projects.vercel.app](https://money-moguls-8uwceod7m-enioluwa-olabodes-projects.vercel.app)
 
-* 🌑 **Light/Dark Mode Toggle**
-  Save theme preference in local storage with beautiful transitions
+## 🛠️ Technology Stack
 
-* 💫 **Animated Backgrounds**
-  Stars, meteors, scroll effects, and glowing UI elements
+- **Frontend**: React 18, Vite, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: Supabase
+- **Deployment**: Vercel
+- **AI Integration**: Custom coaching API
+- **Icons**: Lucide React
+- **Styling**: Dark/Light mode support
 
-* 📱 **Responsive Navigation**
-  Desktop and mobile menus with glassmorphism
+## 📁 Project Structure
 
-* 👨‍💻 **Hero & About Sections**
-  Showcase who you are with smooth intro animations and buttons
-
-* 📊 **Skills Grid**
-  Filterable progress bars and categories with animated width
-
-* 🖼️ **Projects Showcase**
-  Display screenshots, tech stacks, and GitHub/demo links
-
-* 📩 **Contact Section**
-  Social icons + responsive contact form with toast notifications
-
-* 🚀 **One-Click Deployment**
-  Easily host your site with Vercel and GitHub
-
----
-
-## 👌 Quick Start
-
-### Prerequisites
-
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
-
-### Clone and Run
-
-```bash
-git clone https://github.com/yourusername/react-tailwind-portfolio.git
-cd react-tailwind-portfolio
-npm install
-npm run dev
+```
+money-moguls/
+├── src/
+│   ├── components/
+│   │   ├── About.jsx          # Hero section
+│   │   ├── Dashboard.jsx      # Impact tracking dashboard
+│   │   ├── Eva.jsx           # AI chatbot component
+│   │   ├── EducationHub.jsx  # Learning resources
+│   │   ├── Login.jsx         # Authentication
+│   │   ├── Navbar.jsx        # Navigation
+│   │   ├── Pricing.jsx       # Subscription plans
+│   │   ├── ThemeToggle.jsx   # Dark/light mode
+│   │   └── ui/               # Reusable UI components
+│   ├── pages/
+│   │   ├── Home.jsx          # Main landing page
+│   │   └── NotFound.jsx      # 404 page
+│   ├── lib/
+│   │   ├── supabaseClient.js # Database connection
+│   │   └── utils.js          # Utility functions
+│   └── hooks/
+│       └── use-toast.js      # Toast notifications
+├── api/
+│   ├── coach.js              # AI coaching endpoint
+│   └── env-check.js          # Environment validation
+├── public/
+│   └── projects/             # Project images
+└── server.js                 # Express server
 ```
 
-Your app will be available at: [http://localhost:5173](http://localhost:5173)
+## 🏃‍♂️ Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+- Supabase account (for database)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/money-moguls.git
+   cd money-moguls
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**
+   Create a `.env.local` file in the root directory:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+4. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Deployment
+
+The application is configured for easy deployment on Vercel:
+
+1. **Connect to Vercel**
+   ```bash
+   npx vercel
+   ```
+
+2. **Deploy to production**
+   ```bash
+   npx vercel --prod
+   ```
+
+## 🎯 Key Components
+
+### Eva AI Coach
+The heart of the platform - an intelligent chatbot that provides personalized grant coaching based on business profiles and Detroit-specific opportunities.
+
+### Impact Dashboard
+A gamified system that encourages community engagement through points, tiers, leaderboards, and rewards for positive business actions.
+
+### Education Hub
+Comprehensive learning resources including tutorials, databases, and best practices for successful grant applications.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- City of Detroit for partnership and support
+- Detroit business community for feedback and testing
+- Open source community for tools and libraries
+
+## 📞 Contact
+
+For questions, support, or partnership inquiries:
+- Email: contact@detroitcapitalconnect.com
+- Website: [Detroit Capital Connect](https://money-moguls-8uwceod7m-enioluwa-olabodes-projects.vercel.app)
 
 ---
 
-## 🖼️ Screenshots
-
-> 📸 Add screenshots of your Hero section, Projects grid, and Contact form here to show off your site.
-
----
-
-## ☁️ Deployment
-
-### Deploy on Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Click **Deploy**
-
-Your live website will be hosted on a custom subdomain (e.g. `https://your-name.vercel.app`)
-
----
-
-## 🔗 Useful Links
-
-* [React Documentation](https://reactjs.org/)
-* [Tailwind CSS Docs](https://tailwindcss.com/)
-* [Lucide Icons](https://lucide.dev/)
-* [Radix UI](https://www.radix-ui.com/)
-* [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
-
----
-
-Let me know if you'd like me to generate a version with your actual GitHub repo, YouTube URL, or a banner image suggestion!
+**Built with ❤️ for Detroit's entrepreneurial community**

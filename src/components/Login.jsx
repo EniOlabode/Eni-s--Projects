@@ -36,7 +36,7 @@ export const Login = () => {
       <div className="container mx-auto max-w-lg">
         <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
           {isLogin ? "Log in" : "Sign up"}{" "}
-          <span className="text-primary">to MayorChat</span>
+          <span className="text-primary">to DCC</span>
         </h2>
         <p className="text-center text-muted-foreground mb-8">
           {isLogin

@@ -9,10 +9,10 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, we are</span>
+            <span className="opacity-0 animate-fade-in"> What up, doe?</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Mayor-In-Pocket
+              We Are Detroit Capital Connect
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
         
@@ -21,18 +21,13 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            We connect Detroit residents, businesses, and community organizations through a mobile hub that provides access to capital,
-             fair-hiring incentives, and youth career pathways. 
-             By combining microloans, mentorship, and impact scoring, we
-              drive economic mobility and reward businesses that invest locally.
+            In partnership with the City of Detroit, our AI-driven web platform 
+            connects small business owners to local and state grants, provides
+             grant-writing support, 
+            and equips them with resources to drive lasting growth.
 
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
-              View My Work
-            </a>
-          </div>
         </div>
       </div>
 

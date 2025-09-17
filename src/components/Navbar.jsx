@@ -2,12 +2,14 @@ import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
 
 const navItems = [
-  { name: "About", href: "#hero" },
-  { name: "Dashboard", href: "#about" },
-  { name: "Mayor Chat", href: "#skills" },
-  { name: "Points", href: "#projects" },
+  { name: "About", href: "#about" },
+  { name: "Dashboard", href: "#dashboard" },
+  { name: "Eva ", href: "#skills" },
+  { name: "Education Hub", href: "#education" },
+  { name: "Pricing", href: "#pricing" },
   { name: "Login", href: "/login", type: "route" },
 
 ];
@@ -33,12 +35,16 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="flex items-center gap-3"
           href="#hero"
         >
-          <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
-            Portfolio
+          <img 
+            src="/detroit-capital-connect-logo.jpg" 
+            alt="Detroit Capital Connect" 
+            className="h-10 w-auto"
+          />
+          <span className="text-xl font-bold text-primary">
+            Detroit Capital Connect
           </span>
         </a>
 
