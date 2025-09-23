@@ -2,11 +2,21 @@
 
 **An AI-driven platform connecting Detroit small businesses to funding opportunities and community impact rewards.**
 
+> **🏆 Pitch Competition Entry**: This project was developed for a pitch competition focused on economic mobility in Detroit, addressing the critical need to connect underserved small businesses with funding opportunities and community resources to drive economic growth and opportunity in the city.
+
 ![Detroit Capital Connect](banner.png)
 
 ## 🌟 Overview
 
-Detroit Capital Connect is a comprehensive web platform developed in partnership with the City of Detroit to help small business owners access grants, loans, and funding opportunities while building stronger community connections through gamified impact tracking.
+Detroit Capital Connect is a comprehensive web platform developed for a pitch competition addressing economic mobility in Detroit. This solution tackles the critical challenge of connecting small business owners—particularly those in underserved communities—to grants, loans, and funding opportunities while building stronger community connections through gamified impact tracking.
+
+### 🎯 Competition Focus: Economic Mobility in Detroit
+
+This platform directly addresses Detroit's economic mobility challenges by:
+- **Breaking Down Barriers**: Simplifying access to complex funding processes for minority and women-owned businesses
+- **Community Building**: Creating incentives for businesses to invest in local hiring and community development
+- **Knowledge Democratization**: Providing AI-powered coaching to level the playing field for grant applications
+- **Economic Ecosystem**: Fostering a connected network of Detroit businesses working toward shared prosperity
 
 ## ✨ Key Features
 
