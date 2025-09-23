@@ -1,14 +1,15 @@
-# Detroit Capital Connect 🏙️
+# Moguls Pitch Competition Project 🏙️
+## Detroit Capital Connect
 
 **An AI-driven platform connecting Detroit small businesses to funding opportunities and community impact rewards.**
 
-> **🏆 Pitch Competition Entry**: This project was developed for a pitch competition focused on economic mobility in Detroit, addressing the critical need to connect underserved small businesses with funding opportunities and community resources to drive economic growth and opportunity in the city.
+> **🏆 Moguls Pitch Competition Entry**: This project was developed for the Moguls pitch competition focused on economic mobility in Detroit, addressing the critical need to connect underserved small businesses with funding opportunities and community resources to drive economic growth and opportunity in the city.
 
 ![Detroit Capital Connect](banner.png)
 
 ## 🌟 Overview
 
-Detroit Capital Connect is a comprehensive web platform developed for a pitch competition addressing economic mobility in Detroit. This solution tackles the critical challenge of connecting small business owners—particularly those in underserved communities—to grants, loans, and funding opportunities while building stronger community connections through gamified impact tracking.
+Detroit Capital Connect is a comprehensive web platform developed for the Moguls pitch competition addressing economic mobility in Detroit. This solution tackles the critical challenge of connecting small business owners—particularly those in underserved communities—to grants, loans, and funding opportunities while building stronger community connections through gamified impact tracking.
 
 ### 🎯 Competition Focus: Economic Mobility in Detroit
 
